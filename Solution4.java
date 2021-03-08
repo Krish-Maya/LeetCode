@@ -1,4 +1,4 @@
-class Solution3 {
+class Solution4 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] temp=new int[nums1.length+nums2.length];
 		System.out.println("nums1.length+nums2.length"+nums1.length+nums2.length);
@@ -53,7 +53,7 @@ class Solution3 {
     {
         int[] n={};
         int[] m={1};
-        Solution3 s= new Solution3();
+        Solution4 s= new Solution4();
         double d=s.findMedianSortedArrays(n,m);
         System.out.println(d);
     }
